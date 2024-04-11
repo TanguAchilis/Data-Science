@@ -1,0 +1,27 @@
+## How to check avalaible conda envs
+conda info --envs
+## how to create a new env with python3
+conda create --name py3-TF2 python=3
+Note: it is always recommended to include the name of the programming language in the name of the environment
+
+## Activating the environment
+conda activate py3-TF2 
+## lets Install tensorflow
+while in the new env type the following
+conda install tensorflow
+
+## upgrading tensorflow
+pip install --upgrade tensorflow
+
+## How to add your env as a kernel on jupyter
+pip install ipykernel
+
+Please restart anaconda and jupyter to verify if everything is working
+in a jupyter cell try
+import tensorflow as tf
+print(tf.__version___)
+
+if everything goes well, then congratulations you've successfully installed tensorflow
+
+
+
