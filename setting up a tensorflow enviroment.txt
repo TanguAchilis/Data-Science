@@ -24,4 +24,7 @@ print(tf.__version___)
 if everything goes well, then congratulations you've successfully installed tensorflow
 
 
+## how to delete a conda env
+conda env remove --name env_name
+
 
